@@ -1,4 +1,18 @@
 {
+"componentPrototypeServices": {
+        "ad3af090-bba2-4819-a9fe-20d0044588f8": {
+            "id": "ad3af090-bba2-4819-a9fe-20d0044588f8",
+            "componentPrototypeId": "47329b1e-c518-494b-b850-262b2cea0927",
+            "serviceType": "Check",
+            "intervalLength": 1,
+            "intervalUnitOfTime": "Day",
+            "intervalDescription": "Daily",
+            "sequence": 1,
+            "master": true,
+            "changedBy": "defc9bbf-5ac7-4796-a1da-44f4c69c2b53",
+            "changedTimestamp": "2022-06-17T11:36:01.917Z"
+        }
+    },
     "equipmentPrototypes": {
         "0070853c-8a70-41ad-85ea-dc17d94c3c03": {
             "id": "0070853c-8a70-41ad-85ea-dc17d94c3c03",
@@ -991,20 +1005,6 @@
                 "5307e42c-8bb7-46a8-a536-fefeddbb719c"
             ],
             "changedTimestamp": "1754-08-30T22:43:41.128Z"
-        }
-    },
-    "componentPrototypeServices": {
-        "ad3af090-bba2-4819-a9fe-20d0044588f8": {
-            "id": "ad3af090-bba2-4819-a9fe-20d0044588f8",
-            "componentPrototypeId": "47329b1e-c518-494b-b850-262b2cea0927",
-            "serviceType": "Check",
-            "intervalLength": 1,
-            "intervalUnitOfTime": "Day",
-            "intervalDescription": "Daily",
-            "sequence": 1,
-            "master": true,
-            "changedBy": "defc9bbf-5ac7-4796-a1da-44f4c69c2b53",
-            "changedTimestamp": "2022-06-17T11:36:01.917Z"
         }
     },
     "componentPrototypes": {
