@@ -1,0 +1,245 @@
+{
+    "sites": {
+        "91cb58c0-d384-4429-a5d4-951972a33c71": {
+            "id": "91cb58c0-d384-4429-a5d4-951972a33c71",
+            "customerName": "satya",
+            "city": "hyderbad",
+            "state": "CA",
+            "country": "US",
+            "description": "",
+            "changedBy": "ed6500a2-072d-4397-94f2-70fd2ab32274",
+            "facilityType": 0,
+            "changedTimestamp": "2022-03-31T02:11:05.902Z"
+        },
+        "92624255-7d0e-4a0f-b4ae-e94b85e1ce60": {
+            "id": "92624255-7d0e-4a0f-b4ae-e94b85e1ce60",
+            "customerName": "Test123",
+            "city": "Karmala",
+            "state": "MH",
+            "country": "IN",
+            "description": "Test123",
+            "changedBy": "bfe66cd0-5e49-4870-be69-8c98bb15b1ce",
+            "facilityType": 0,
+            "changedTimestamp": "1754-08-30T22:43:41.129Z"
+        }
+    },
+    "surveys": {
+        "072e224c-d635-4870-9f12-53b16d837314": {
+            "id": "072e224c-d635-4870-9f12-53b16d837314",
+            "ownerId": "0a65e430-36f0-4e4b-a4f9-0e7c1b5459ce",
+            "siteId": "b6a9c3d3-4d35-4194-9e18-ce18aee321fb",
+            "changedBy": "0a65e430-36f0-4e4b-a4f9-0e7c1b5459ce",
+            "changedTimestamp": "1754-08-30T22:43:41.128Z"
+        },
+        "80d5df51-b612-408a-81ea-a8af8c46971f": {
+            "id": "80d5df51-b612-408a-81ea-a8af8c46971f",
+            "ownerId": "ed6500a2-072d-4397-94f2-70fd2ab32274",
+            "siteId": "91cb58c0-d384-4429-a5d4-951972a33c71",
+            "changedBy": "ed6500a2-072d-4397-94f2-70fd2ab32274",
+            "changedTimestamp": "2022-03-31T02:11:05.903Z"
+        }
+    },
+    "areas": {
+        "0183bbee-4ec6-4920-97ba-e44956ca6461": {
+            "id": "0183bbee-4ec6-4920-97ba-e44956ca6461",
+            "siteId": "1ad0d548-fdf5-473b-9c8f-6632a184c03d",
+            "surveyId": "584cddaf-950f-4299-a3b6-21541f0cf41b",
+            "description": "#6&7 CT",
+            "sequence": 0,
+            "changedBy": "0a65e430-36f0-4e4b-a4f9-0e7c1b5459ce",
+            "changedTimestamp": "2022-08-05T08:24:22.742Z"
+        },
+        "83e10803-030f-45ff-afb5-1284c0a141f4": {
+            "id": "83e10803-030f-45ff-afb5-1284c0a141f4",
+            "siteId": "91cb58c0-d384-4429-a5d4-951972a33c71",
+            "surveyId": "80d5df51-b612-408a-81ea-a8af8c46971f",
+            "description": "Unassigned",
+            "sequence": 0,
+            "unassigned": true,
+            "changedBy": "ed6500a2-072d-4397-94f2-70fd2ab32274",
+            "changedTimestamp": "2022-03-31T02:11:05.904Z"
+        }
+    },
+    "equipment": {
+        "00034b84-8799-4aba-ae04-b11b0e1e872f": {
+            "id": "00034b84-8799-4aba-ae04-b11b0e1e872f",
+            "siteId": "467a1b42-f859-4901-8c72-fbb8c4a67c86",
+            "areaId": "309b24bb-da25-4f6b-a0fa-5789e72a2917",
+            "description": "Main L/Oil Pump for 293",
+            "equipmentNumber": "0250210",
+            "sequence": 662,
+            "areaSequence": 6,
+            "changedBy": "7a117b58-7537-4121-80fa-8d1f9bb81c67",
+            "changedTimestamp": "2020-12-17T21:58:24.260Z"
+        },
+        "98413fd0-2dec-4536-903c-68aaae66ff5c": {
+            "id": "98413fd0-2dec-4536-903c-68aaae66ff5c",
+            "siteId": "91cb58c0-d384-4429-a5d4-951972a33c71",
+            "areaId": "83e10803-030f-45ff-afb5-1284c0a141f4",
+            "description": "test",
+            "equipmentNumber": "1234",
+            "changedBy": "ed6500a2-072d-4397-94f2-70fd2ab32274",
+            "changedTimestamp": "2022-03-31T02:11:50.182Z"
+        }
+    },
+    "equipmentPrototypes": {
+        "00706542-0633-419c-9474-f21bad2386ec": {
+            "id": "00706542-0633-419c-9474-f21bad2386ec",
+            "code": "Pv",
+            "description": "Pump (vertical)",
+            "equipmentTypeId": "4c653317-fc2c-41b3-8838-0b190a2b041d",
+            "siteId": "613a7ed4-c047-4973-852c-e6de24acca1d",
+            "country": "US",
+            "changedBy": "0ffb8681-fa07-4643-8af9-96f1ed896e06",
+            "componentPrototypeIds": [
+                "1dc7f610-7097-48c1-97b9-c13f075f206c",
+                "c9d2ce43-795a-435a-bf9c-d2ca776eb9ad",
+                "6b2bca00-ff56-4c55-87dc-bf7ccfd909ff"
+            ],
+            "changedTimestamp": "2022-08-04T04:46:30.255Z"
+        },
+        "310d6e8d-a921-47d3-8a77-f2792a9e77e7": {
+            "id": "310d6e8d-a921-47d3-8a77-f2792a9e77e7",
+            "code": "CLS",
+            "description": "Central Lubrication System",
+            "equipmentTypeId": "0a56e5d0-d3ef-4e3d-9486-d30aa090cea3",
+            "siteId": "91cb58c0-d384-4429-a5d4-951972a33c71",
+            "country": "US",
+            "changedBy": "0ffb8681-fa07-4643-8af9-96f1ed896e06",
+            "componentPrototypeIds": [
+                "63dfd7c9-5541-404d-9204-4fdcc43ce4b7",
+                "65de593d-e69b-4c17-bd27-076e84a9e914",
+                "921eff9d-fe59-4856-b6fc-5b61314bfe8c",
+                "52f1314b-aa56-401b-8db5-571e60e43035",
+                "53fc4fb6-94c4-4f2f-8c6a-7ca229a3dcc9",
+                "d269e110-6dbd-4cf1-a821-74dc513c8701",
+                "0dff1654-0742-4aee-9e42-7bbcbcf4f7ab"
+            ],
+            "changedTimestamp": "2022-08-02T21:41:36.664Z"
+        },
+        "2b4f5d35-5f4d-4703-9e79-c52fe0c1a2db": {
+            "id": "2b4f5d35-5f4d-4703-9e79-c52fe0c1a2db",
+            "code": "HV68",
+            "description": "Hydraulic System - ISO VG 68 Multi-grade",
+            "equipmentTypeId": "b84a39cd-d2aa-4895-8e82-aeaf477b7854",
+            "siteId": "dfa46735-268a-493d-84ff-99809ba6a803",
+            "country": "US",
+            "changedBy": "0ffb8681-fa07-4643-8af9-96f1ed896e06",
+            "componentPrototypeIds": [
+                "b915f46b-cb95-40e9-99df-95fe34cad44b",
+                "0906327a-ed02-4804-8c72-8783eada105d",
+                "ddab3d5b-f278-4951-8f00-0c66566c5dd7",
+                "fb96b009-9d0f-4a5c-8060-c3b432d5c252",
+                "7cbaad8d-4294-45df-8554-c8641e688c75"
+            ],
+            "changedTimestamp": "2022-08-04T04:42:51.465Z"
+        }
+    },
+    "componentPrototypes": {
+        "0019a1f1-49af-4f8e-beec-18eebb3f7010": {
+            "id": "0019a1f1-49af-4f8e-beec-18eebb3f7010",
+            "code": "PBS",
+            "description": "Pin and Bushing - Synthetic 5% moly",
+            "lubricantName": "Shell Gadus S5 V150XKD 1",
+            "lubricantFriendlyName": "Gadus S5 V150XKD 1",
+            "lubricantManufacturer": "Shell",
+            "lubricantSPCode": "001F4186",
+            "lubricationPoints": 1,
+            "siteId": "f3739966-e340-4ab9-b47a-5f62f389cd5b",
+            "country": "US",
+            "changedBy": "0ffb8681-fa07-4643-8af9-96f1ed896e06",
+            "changedTimestamp": "2022-08-05T00:09:15.646Z"
+        },
+        "01205401-7031-4e73-aed5-d436b352a27a": {
+            "id": "01205401-7031-4e73-aed5-d436b352a27a",
+            "code": "",
+            "description": "Aux. Drive - Gearbox",
+            "lubricantName": "Shell Omala S4 GXV 460",
+            "lubricantFriendlyName": "Omala S4 GXV 460",
+            "lubricantManufacturer": "Shell",
+            "lubricantSPCode": "001F8460",
+            "lubricationPoints": 1,
+            "siteId": "91cb58c0-d384-4429-a5d4-951972a33c71",
+            "country": "US",
+            "changedBy": "0ffb8681-fa07-4643-8af9-96f1ed896e06",
+            "changedTimestamp": "2022-08-02T21:41:36.651Z"
+        },
+        "018de9f0-983e-481e-b933-7c21f9773683": {
+            "id": "018de9f0-983e-481e-b933-7c21f9773683",
+            "code": "",
+            "description": "Main Pump - Electric Motor",
+            "lubricantName": "Gadus S3 T100 2",
+            "lubricantFriendlyName": "Gadus S3 T100 2",
+            "lubricantManufacturer": "Shell",
+            "lubricantSPCode": "001D8549",
+            "lubricationPoints": 2,
+            "siteId": "91cb58c0-d384-4429-a5d4-951972a33c71",
+            "country": "US",
+            "changedBy": "0ffb8681-fa07-4643-8af9-96f1ed896e06",
+            "changedTimestamp": "2022-08-02T21:41:36.526Z"
+        },
+        "042c2921-d7b7-4715-8693-bf46a3a1c58b": {
+            "id": "042c2921-d7b7-4715-8693-bf46a3a1c58b",
+            "code": "HV46",
+            "description": "Hydraulics - Multi-viscosity",
+            "lubricantName": "Shell Tellus S2 VX 32",
+            "lubricantFriendlyName": "Tellus S2 VX 32",
+            "lubricantManufacturer": "Shell",
+            "lubricantSPCode": "001F8432",
+            "lubricationPoints": 1,
+            "siteId": "91cb58c0-d384-4429-a5d4-951972a33c71",
+            "country": "US",
+            "changedBy": "0ffb8681-fa07-4643-8af9-96f1ed896e06",
+            "changedTimestamp": "2022-08-02T21:41:36.592Z"
+        },
+        "07442364-bc9c-457e-a580-1a5c0a6eb373": {
+            "id": "07442364-bc9c-457e-a580-1a5c0a6eb373",
+            "code": "Bg",
+            "description": "Bearing",
+            "lubricantName": "Gadus S3 V220C 2",
+            "lubricantFriendlyName": "Gadus S3 V220C 2",
+            "lubricantManufacturer": "Shell",
+            "lubricantSPCode": "001D8425",
+            "lubricationPoints": 1,
+            "siteId": "91cb58c0-d384-4429-a5d4-951972a33c71",
+            "country": "US",
+            "changedBy": "0ffb8681-fa07-4643-8af9-96f1ed896e06",
+            "changedTimestamp": "2022-08-02T21:41:36.567Z"
+        }
+    },
+    "components": {
+        "001acaba-a90a-4877-9488-24d3a91441fe": {
+            "id": "001acaba-a90a-4877-9488-24d3a91441fe",
+            "siteId": "c7296c69-6e12-40cf-8702-6c548116ed77",
+            "equipmentId": "188d68dd-a2ec-412a-93b8-af64474883d4",
+            "description": "Electric Motor (Sealed)",
+            "lubricantName": "Not lubricated",
+            "lubricantFriendlyName": "Not lubricated",
+            "sequence": 1,
+            "changedBy": "6f733778-e817-4478-9203-22426e0929c9",
+            "componentNumber": "",
+            "productCode": "",
+            "lubricationMethod": "",
+            "unitOfMeasure": "",
+            "comment": "",
+            "packageId": "",
+            "unitsOfMeasure": null,
+            "changedTimestamp": "2022-08-04T04:40:01.364Z"
+        }
+    },
+    "componentServices": {
+        "0016735d-5945-4a65-83a2-507a491bb6c0": {
+            "id": "0016735d-5945-4a65-83a2-507a491bb6c0",
+            "siteId": "60e9a50f-aedb-43cd-8c41-fe73c160745c",
+            "componentId": "021284c9-ef7c-470d-aeaf-ba2d3259d5b2",
+            "serviceType": "Check",
+            "intervalLength": 0,
+            "intervalUnitOfTime": "1Week",
+            "intervalDescription": "Weekly",
+            "sequence": 1,
+            "changedBy": "6f733778-e817-4478-9203-22426e0929c9",
+            "unscheduled": false,
+            "changedTimestamp": "2022-08-03T12:14:38.266Z"
+        }
+    }
+}
