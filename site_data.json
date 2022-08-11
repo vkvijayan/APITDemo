@@ -152,7 +152,7 @@
         },
         "01205401-7031-4e73-aed5-d436b352a27a": {
             "id": "01205401-7031-4e73-aed5-d436b352a27a",
-            "code": "",
+            "code": "LnB",
             "description": "Aux. Drive - Gearbox",
             "lubricantName": "Shell Omala S4 GXV 460",
             "lubricantFriendlyName": "Omala S4 GXV 460",
@@ -166,7 +166,7 @@
         },
         "018de9f0-983e-481e-b933-7c21f9773683": {
             "id": "018de9f0-983e-481e-b933-7c21f9773683",
-            "code": "",
+            "code": "Vbg",
             "description": "Main Pump - Electric Motor",
             "lubricantName": "Gadus S3 T100 2",
             "lubricantFriendlyName": "Gadus S3 T100 2",
